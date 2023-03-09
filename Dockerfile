@@ -59,4 +59,4 @@ RUN apt-get install -y git
 RUN pip3 install git+https://github.com/proof-by-accident/deep_sort_den
 
 # install umt
-RUN pip3 install git+https://github.com/nathanrooy/rpi-urban-mobility-tracker --no-deps
+RUN pip3 install git+https://github.com/proof-by-accident/rpi-umt-den --no-deps
