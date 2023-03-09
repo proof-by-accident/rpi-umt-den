@@ -103,12 +103,17 @@ def main():
                 if len(tracker.tracks) > 0:
                     for track in tracker.tracks:
                         bbox = track.to_tlbr()
+
                         class_name = labels[track.class_name]
-                        row = (f'{i},{f_time},{class_name},'
-                            f'{track.track_id},{int(track.age)},'
-                            f'{int(track.time_since_update)},{str(track.hits)},'
-                            f'{int(bbox[0])},{int(bbox[1])},'
-                            f'{int(bbox[2])},{int(bbox[3])}')
+
+                        row = (
+                            f"{i},{f_time},{class_name},"
+                            f"{track.track_id},{track.age},"
+                            f"{track.time_since_update)},{str(track.hits)},"
+                            f"{bbox[0]},{bbox[1]},"
+                            f"{bbox[2]},{bbox[3]}"
+                        )
+>>>>>>> 81f4a6f (removing type constraints on output print; pednet sometimes returns np.nans and this breaks the output)
                         print(row, file=out_file)
                 
             # only for live display
