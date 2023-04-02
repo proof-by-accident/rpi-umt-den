@@ -1,0 +1,4 @@
+deep_sort @ https://github.com/proof-by-accident/deep_sort_den/archive/master.zip#egg=deep_sort-1.2.0
+filterpy
+imutils
+tensorflow
