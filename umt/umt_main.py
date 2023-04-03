@@ -12,10 +12,10 @@ from deep_sort.tracker import Tracker
 from deep_sort import nn_matching
 
 # umt utils
-from umt.umt_utils import parse_label_map
-from umt.umt_utils import initialize_detector
-from umt.umt_utils import initialize_img_source
-from umt.umt_utils import generate_detections
+from .umt_utils import parse_label_map
+from .umt_utils import initialize_detector
+from .umt_utils import initialize_img_source
+from .umt_utils import generate_detections
 
 # --- CONSTANTS ----------------------------------------------------------------+
 
