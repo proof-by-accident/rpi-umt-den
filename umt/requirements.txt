@@ -1,4 +1,9 @@
-deep_sort @ https://github.com/proof-by-accident/deep_sort_den/archive/master.zip#egg=deep_sort-1.2.0
+pycoral
+scipy
+opencv-python
+scikit-image
 filterpy
 imutils
-tensorflow
+mock
+portpicker
+h5py
